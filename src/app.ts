@@ -5,26 +5,9 @@ import helmet from "helmet";
 import morgan from "morgan";
 import routes from "./routes/index";
 import cors from "cors";
-// import "./types/express/index.d.ts";
 dotenv.config();
 
 const app = express();
-// {
-//   origin: [
-//     "http://localhost:3000",
-//   ],
-//   methods: "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS",
-//   allowedHeaders: [
-//     "Origin",
-//     "X-Requested-With",
-//     "Content-Type",
-//     "Accept",
-//     "Authorization",
-//     "x-api-key",
-//     "x-client-id",
-//   ],
-//   credentials: true,
-// }
 // Init middlewares
 app.use(morgan("dev"));
 app.use(helmet());
