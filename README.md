@@ -26,3 +26,9 @@
    ```sh
    cp npm run dev
    ```
+
+4. Endpoint:
+
+   ```sh
+   cp http://localhost:3056/v1/api
+   ```
